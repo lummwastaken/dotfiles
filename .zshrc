@@ -3,6 +3,9 @@ export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
 export PATH="/home/linuxbrew/.linuxbrew/sbin:$PATH"
 export PATH="$HOME/.cargo/bin:$PATH"
 
+export EDITOR="nvim"
+export VISUAL="$EDITOR"
+
 # Aliases
 alias projects='cd ~/Documents/Projects'
 
@@ -17,6 +20,8 @@ alias gcm='git commit -m'
 alias gp='git push'
 alias gpu='git pull'
 alias gco='git checkout'
+
+alias vim="nvim"
 
 # Oh-my-zsh
 export ZSH="$HOME/.oh-my-zsh"
@@ -36,5 +41,3 @@ autoload -Uz vcs_info
 precmd () { vcs_info }
 zstyle ':vcs_info:*' formats ' %F{red}%b%f'
 PS1='%B%n@%m%b %F{blue}%1~%f$vcs_info_msg_0_ $'
-
-fastfetch
