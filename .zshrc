@@ -6,6 +6,7 @@ export PATH="$HOME/.cargo/bin:$PATH"
 export EDITOR="nvim"
 export VISUAL="$EDITOR"
 
+export PROJECTS="/home/liam/Documents/Projects"
 # Aliases
 alias projects='cd ~/Documents/Projects'
 
